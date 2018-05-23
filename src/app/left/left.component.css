@@ -1,0 +1,33 @@
+.h2 {
+  height: 13px;
+  line-height: 13px;
+}
+.left-title{
+  display: flex;
+  height: 40px;
+  font-weight: 600;
+  background: rgb(153,160,166);
+  margin: 0;
+}
+.left-title>span{
+  color: white;
+  text-align: center;
+  line-height: 29px;
+  font-size: 18px;
+  flex: 1;
+}
+.table-context{
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  height: 450px;
+}
+.table-context>li{
+  padding: 5px;
+  color: white;
+  list-style: none;
+  height: 29px;
+  line-height: 29px;
+  font-size: 18px;
+}
+.table-context>li:nth-child(even){background: rgb(153,160,166);}

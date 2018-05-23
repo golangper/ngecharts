@@ -1,0 +1,27 @@
+.demo-chart {
+    width: 100%;   
+    height: 100%;
+    margin-top: 0 ;
+}
+
+.enddata {
+    display:flex;
+    justify-content:space-around;
+}
+
+.setimg {
+    width: 100px;
+    height: 100px;
+    margin:0 auto;
+    background: url("../../assets/icon2.png") no-repeat;
+    background-size:50px 50px;
+    background-position: center center;
+    border: 1px solid blue;
+}
+
+.img {
+    width:50px;
+    height:50px;
+    margin-left:80px;
+    margin-top:2px;
+}

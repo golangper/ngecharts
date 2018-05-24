@@ -1,4 +1,5 @@
 ###给图表添加背景
+
 在图表外加一个外层div,给这个外层div设置背景
 >html:
 
@@ -377,6 +378,7 @@ centerOption = {
 ```
 <div echarts [options]="centerOption" class='context'></div>
 ```
+<<<<<<< HEAD
 ###去掉地图的坐标显示
 ```
 series:[
@@ -390,3 +392,5 @@ series:[
     }
 ]
 ```
+=======
+>>>>>>> 5ee1754134cc3a7938df16b10216c3c0517ad36c

@@ -10,11 +10,11 @@
 }
 
 .setimg {
-    width: 100px;
-    height: 100px;
+    width: 75%;
+    height: 50%;
     margin:0 auto;
     background: url("../../assets/icon2.png") no-repeat;
-    background-size:50px 50px;
+    background-size:30% 45%;
     background-position: center center;
     border: 1px solid blue;
 }

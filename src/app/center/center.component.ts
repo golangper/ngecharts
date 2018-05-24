@@ -100,6 +100,7 @@ export class CenterComponent implements OnInit {
         type: 'map',
         mapType: 'china',
         roam: false, // 是否开启鼠标缩放和平移漫游
+        showLegendSymbol:true,//去掉地图的坐标点
         dataRange: {// 颜色的变化设置
           x: 'left',
           y: 'bottom',
@@ -115,7 +116,7 @@ export class CenterComponent implements OnInit {
 //            calculable : true,//颜色呈条状
 //            text:['高','低'],// 文本，默认为数值文本
           color: ['#E0022B', '#E09107', '#A3E00B']
-      },
+          },
         itemStyle: { // 地图区域的多边形 图形样式
           normal: { // 是图形在默认状态下的样式
             label: {

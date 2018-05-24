@@ -26,11 +26,16 @@ export class Right4Component implements OnInit {
       */
       series: [
           {
-              name:'客户分析',
+              name:'模块四',
               type:'pie',
-              radius: ['50%', '70%'],
+              radius: ['40%', '50%'],
               avoidLabelOverlap: false,
-              label: {
+
+              /**
+               * 去掉label和labelLine会显示指示线（有点奇怪）
+               */
+              /**
+               * label: {
                   normal: {
                       show: false,
                       position: 'center'
@@ -48,9 +53,11 @@ export class Right4Component implements OnInit {
                       show: false
                   }
               },
+               */
+              
               data:[
-                  {value:79, name:'老代理'},
-                  {value:21, name:'新代理'},
+                  {value:79, name:'part1'},
+                  {value:21, name:'part2'},
               ]
           }
       ]

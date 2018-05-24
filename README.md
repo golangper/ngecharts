@@ -131,6 +131,9 @@ series : [
         }
     ]
 ```
+
+###给环状图添加指示线
+去掉series[]里的label和labelline属性就可以显示了，应该是默认就可以显示的（具体原因不知道）
 ###引入中国地图china.js
 1. 引入china.js
 2. ts中：
@@ -373,4 +376,17 @@ centerOption = {
 3. html中
 ```
 <div echarts [options]="centerOption" class='context'></div>
+```
+###去掉地图的坐标显示
+```
+series:[
+    showLegendSymbol:false,//去掉地图中的省份标点
+    itemStyle:{
+        normal:{
+            label:{
+                show:false,//去掉地图中的省份标点
+            }
+        }
+    }
+]
 ```
